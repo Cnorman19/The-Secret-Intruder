@@ -16,10 +16,6 @@ client.on('message', message =>{
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 
-	if(command === 'dave'){
-		message.channel.send('My Best Friend RD :) - hi');
-	}
-
 	if(command === 'keeg'){
 		message.channel.send('Anyone tryna do some molly?');
 	}
